@@ -2,7 +2,7 @@
 #line {
 	position:absolute;
 	height : 4px;
-	width:200px;
+	width : 200px;
 	background : black;
 	animation : rotate 2s linear infinite;
 }
