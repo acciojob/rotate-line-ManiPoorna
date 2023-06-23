@@ -4,7 +4,6 @@
 	height : 4px;
 	width : 200px;
 	background : black;
-	border-radius : 50%;
 	animation : rotate 2s linear infinite;
 }
 body{
@@ -12,6 +11,7 @@ body{
 	display:flex;
 	justify-content : center;
 	align-items: center;
+	border-radius : 50%;
 }
 @keyframes rotate{
 	100%{
