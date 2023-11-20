@@ -1,20 +1,20 @@
 /*  your css code here. If applicable */
 #line {
-	position:absolute;
-	height : 4px;
-	width : 200px;
 	background : black;
-	animation : rotate 0.6s linear infinite;
-}
-body{
-	margin :100px;
-	display:flex;
-	justify-content : center;
-	align-items: center;
-	border-radius : 50%;
+	color : black;
+	width : 200px;
+	height : 2px;
+	position:absolute;
+	top:50%;
+	left : 50%;
+	animation : rotate 2s linear infinite;
 }
 @keyframes rotate{
 	100%{
 		transform:rotate(360deg);
 	}
 }
+
+
+
+
